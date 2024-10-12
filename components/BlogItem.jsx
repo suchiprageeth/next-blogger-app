@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const BlogItem = ({ title, description, category, image }) => {
   return (
-    <div className="max-w-[330px] sm:max-w-[300px] bg-white border border-black transition-opacity duration-300 hover:opacity-80 cursor-pointer">
+    <div className="max-w-[330px] sm:max-w-[300px] bg-white border border-black transition-opacity duration-300 hover:opacity-80">
       <Image
         src={image}
         alt=""
